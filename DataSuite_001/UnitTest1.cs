@@ -16,6 +16,7 @@ namespace DataSuite_001
             string app_path = @"D:\RESOURCES\DataSuite\1245\Console\DataSuite.Administration.Console.WinClient.exe";
             application = Application.Launch(app_path); 
             Window mainWindow = application.GetWindow("DataSuite Console");
+            //Added Lines of Code
             Console.WriteLine(mainWindow.Title);
             mainWindow.WaitWhileBusy();
             mainWindow.Close();
